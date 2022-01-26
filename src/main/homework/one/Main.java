@@ -1,4 +1,4 @@
-package main;
+package main.homework.one;
 
 /**
  * @author Pavel Miloslavskiy on 21.02.2022

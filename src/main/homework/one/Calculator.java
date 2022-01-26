@@ -1,4 +1,4 @@
-package main;
+package main.homework.one;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -27,7 +27,7 @@ public class Calculator {
      * {@link Calculator#operation}
      */
     private void initializationOfRequiredFields() {
-        try ( BufferedReader br = new BufferedReader(new InputStreamReader(System.in));){
+        try ( BufferedReader br = new BufferedReader(new InputStreamReader(System.in))){
             System.out.print("Введите первое число: ");
             firstNumber = Double.parseDouble(br.readLine());
             System.out.print("Введите второе число: ");
