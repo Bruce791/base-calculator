@@ -14,7 +14,9 @@ public class Main {
             calculator.setB(Double.parseDouble(br.readLine()));
             System.out.print("Enter the operation (example +, -, *, /): ");
             calculator.setOperation(br.readLine());
-        } catch (NumberFormatException | IOException e) {
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        } catch (NumberFormatException e) {
             System.out.println(e.getMessage() + ", expected number! (example 1 or 1.0)");
         }
     }
